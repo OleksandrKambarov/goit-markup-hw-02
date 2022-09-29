@@ -1,7 +1,10 @@
-    body {
-    background-color: #FFFFFF;
-    color: #212121; }
-
+body {
+ background-color: #FFF;
+ color: #212121; 
+}
+.list{
+  list-style: none;  
+}
 /* колір основного тексту #212121 */
 
 /* вторичний колір тексту #757575 */
@@ -20,3 +23,20 @@
 
 /* колір фрна хедера #ECECEC */
 
+.logo {
+ color: #000;
+}
+
+/* site-nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* hero */
+.hero-title{
+    color: #FFF;
+}
+
+
+/* section */
