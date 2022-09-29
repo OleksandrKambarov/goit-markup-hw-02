@@ -36,9 +36,12 @@ color: var(--primary-text-color);
     color: #000000;
 }
 .logo-text {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 /* site-nav */
+.link {
+    color:var(--primary-text-color);
+}
 .site-nav .link:hover ,
 .site-nav .link:focus {
     color: var(--accent-color);
@@ -47,8 +50,8 @@ color: var(--primary-text-color);
 .link-contacts {
     color: var(--title-text-color);
 }
-.link-contacts .link:hover,
-.link-contacts .link:focus {
+.contacts .link-contacts:hover,
+.contacts .link-contacts:focus {
      color: var(--accent-color);  
 }
 /* hero */
@@ -59,7 +62,7 @@ color: var(--primary-text-color);
     color: var(--primary-white-color);
 }
 .button {
-    color: var(--primary-bg-color);
+    color: var(--primary-white-color);
     background-color: var(--accent-color); 
   }
 /* section */
@@ -89,9 +92,27 @@ color: var(--primary-text-color);
 .subtitle {
     color: var(--title-text-color);
 }
+.footer {
+background-color: #2F303A;
+}
+.logo-footer {
+    color: var(--primary-white-color);
+}
+.link-adress {
+ color: var(--primary-white-color); 
+}
 
+.link-items .link-adress:hover,
+.link-items .link-adress:focus {
+    color: var(--accent-color);
+}  
 
+.link-item {
+    color: var(--primary-white-color);
+    }
 
-
-
+.link-items .link-item:hover,
+.link-items .link-item:focus {
+    color: var(--accent-color);
+    
 
