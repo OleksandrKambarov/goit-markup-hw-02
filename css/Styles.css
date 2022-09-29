@@ -1,9 +1,9 @@
 body {
- background-color: #FFF;
- color: #212121; 
+background-color: #FFFFFF;
+   color: #212121; 
 }
 .list{
-  list-style: none;  
+   list-style: none;  
 }
 /* колір основного тексту #212121 */
 
@@ -21,22 +21,40 @@ body {
 
 /* колір фону героя та футера #2F303A */
 
-/* колір фрна хедера #ECECEC */
-
+/* колір фона хедера #ECECEC */
 .logo {
- color: #000;
+    color: #000000;
 }
-
 /* site-nav */
-.site-nav .link:hover,
+.site-nav .link:hover ,
 .site-nav .link:focus {
     color: #2196F3;
 }
 
-/* hero */
-.hero-title{
-    color: #FFF;
+.link-contacts {
+    color: #757575;
 }
-
-
+.link-contacts .link:hover ,
+    .site-nav .link:focus {
+     color: #2196F3;  
+}
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
 /* section */
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
