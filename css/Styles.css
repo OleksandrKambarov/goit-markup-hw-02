@@ -22,21 +22,27 @@ background-color: #FFFFFF;
 /* колір фону героя та футера #2F303A */
 
 /* колір фона хедера #ECECEC */
+
+:root {
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
 .logo {
     color: #000000;
 }
 /* site-nav */
 .site-nav .link:hover ,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .link-contacts {
-    color: #757575;
+    color: var(--title-text-color);
 }
 .link-contacts .link:hover ,
     .site-nav .link:focus {
-     color: #2196F3;  
+     color: var(--accent-color);  
 }
 /* hero */
 .hero {
@@ -58,3 +64,20 @@ background-color: #FFFFFF;
       clip-path: inset(50%);
       margin: -1px;
   }
+/* features */
+  .text {
+    color: var(--title-text-color);
+}
+/* work */
+
+
+/* team */
+.section-team {
+    background-size: #F5F4FA;
+}
+.subtitle {
+    color: var(--title-text-color);
+}
+
+
+
