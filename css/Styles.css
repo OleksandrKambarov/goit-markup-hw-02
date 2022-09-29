@@ -1,5 +1,5 @@
 body {
-background-color: var(--primary-bg-color);
+background-color: var(--primary-white-color);
    color: var(--primary--text-color:); 
 }
 .list{
@@ -27,7 +27,7 @@ background-color: var(--primary-bg-color);
     --primary--text-color: #212121;  
     --title-text-color: #757575;
     --accent-color: #2196F3;
-    --primary-bg-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
 }
 
 .logo {
@@ -42,8 +42,8 @@ background-color: var(--primary-bg-color);
 .link-contacts {
     color: var(--title-text-color);
 }
-.link-contacts .link:hover ,
-    .site-nav .link:focus {
+.link-contacts .link:hover,
+.link-contacts .link:focus {
      color: var(--accent-color);  
 }
 /* hero */
@@ -51,7 +51,7 @@ background-color: var(--primary-bg-color);
     background-color: #2F303A;
 }
 .hero-title{
-    color: var(--primary-bg-color);
+    color: var(--primary-white-color);
 }
 .button {
     color: var(--primary-bg-color);
