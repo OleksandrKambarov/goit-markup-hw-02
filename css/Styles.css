@@ -28,12 +28,12 @@ color: var(--primary-text-color);
     --primary-text-color: #212121;  
     --title-text-color: #757575;
     --accent-color: #2196F3;
-    --primary-white-color: #FFFFFF;
+    --primary-white-color: #FFF;
     --secondary-fon-color: #F5F4FA;
 }
 
 .logo {
-    color: #000000;
+    color: #000;
 }
 .logo-text {
     color: var(--accent-color);
@@ -61,10 +61,17 @@ color: var(--primary-text-color);
 .hero-title{
     color: var(--primary-white-color);
 }
-.button {
+.button  {
     color: var(--primary-white-color);
     background-color: var(--accent-color); 
   }
+
+.button:hover,      
+.button:focus {
+    background-color: #0977CE; 
+}
+
+
 /* section */
 .visually-hidden {
     position: absolute;
@@ -79,7 +86,7 @@ color: var(--primary-text-color);
       margin: -1px;
   }
 /* features */
-  .text {
+.text {
     color: var(--title-text-color);
 }
 /* work */
@@ -89,9 +96,16 @@ color: var(--primary-text-color);
 .section-team {
     background-size: var(--secondary-fon-color);
 }
+
 .subtitle {
     color: var(--title-text-color);
 }
+
+.team-image {
+    background-color: #fff;
+}
+
+/* footer */
 .footer {
 background-color: #2F303A;
 }
@@ -108,7 +122,7 @@ background-color: #2F303A;
 }  
 
 .link-item {
-    color: var(--primary-white-color);
+    color: rgba(100%, 100%, 100%, 60%);
     }
 
 .link-items .link-item:hover,
