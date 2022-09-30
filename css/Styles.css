@@ -1,7 +1,7 @@
 body {
    background-color: var(--primary-white-color);
    color: var(--primary-text-color);
-   font-family: "Roboto", "Raleway", sans-serif; 
+   font-family: "Roboto", "Raleway", "Oleo Script" sans-serif; 
 }
 .list{
    list-style: none;  
@@ -26,15 +26,19 @@ body {
 /* колір фона хедера #ECECEC */
 
 :root {
-    --primary-text-color: #212121;  
+    --primary-text-color: #212121;
+    --secondary-fon-color: #000;
     --title-text-color: #757575;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --primary-white-color: #FFF;
     --secondary-fon-color: #F5F4FA;
-}
+    --section-fon-color: #2F303A;
+    --button-hover-color: #0977CE;
+    }
 
 .logo {
-    color: #000;
+    color: var(--secondary-fon-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -79,7 +83,7 @@ body {
 }
 /* hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--section-fon-color);
     }
 .hero-title{
     color: var(--primary-white-color);
@@ -102,7 +106,7 @@ body {
 
 .button:hover,      
 .button:focus {
-    background-color: #0977CE;
+    background-color: var(--button-hover-color);
 }
 
 
@@ -172,12 +176,12 @@ body {
 }
 
 .team-image {
-    background-color: #fff;
+    background-color: var(--primary-white-color);
 }
 
 /* footer */
 .footer {
-   background-color: #2F303A;
+   background-color: var(--section-fon-color);
 }
 
 .logo-footer {
@@ -205,7 +209,7 @@ body {
 }  
 
 .link-item {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -215,7 +219,32 @@ body {
 
 .link-items .link-item:hover,
 .link-items .link-item:focus {
-    color: var(--accent-color);
+    color: var(--accent-color);}
     
 /* portfolio */
+.filter-button {
+    cursor: pointer;
+    background-color: var(--secondary-fon-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
 
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+    background-color: var(--accent-color);
+ }
+ /* Products */
+ .product-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;   
+ }
+ 
+.product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+ 
+ 
