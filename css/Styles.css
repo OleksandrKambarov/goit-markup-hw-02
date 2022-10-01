@@ -1,7 +1,7 @@
 body {
    background-color: var(--primary-white-color);
    color: var(--primary-text-color);
-   font-family: "Roboto", "Raleway", "Oleo Script" sans-serif; 
+   font-family: "Roboto", "Raleway", "Oleo Script", sans-serif; 
 }
 .list{
    list-style: none;  
@@ -44,6 +44,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-text {
@@ -56,6 +57,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover ,
 .site-nav .link:focus {
@@ -73,6 +75,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .contacts .link-contacts:hover,
 .contacts .link-contacts:focus {
@@ -87,6 +90,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .button  {
@@ -95,7 +99,8 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875; 
+    line-height: 1.875;
+    letter-spacing: 0.06em;
     cursor: pointer; 
   }
 
@@ -124,12 +129,15 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     }
 
 .text {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 
@@ -143,24 +151,29 @@ body {
 /* team */
 .section-team {
     background-color: var(--secondary-fon-color);
+    letter-spacing: 0.03em;
  }
 
 .team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.166;  
+    line-height: 1.166;
+    letter-spacing: 0.03em;
 }
 
 .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.187;   
+    line-height: 1.187;
+    letter-spacing: 0.03em;
 }
 
 .subtitle {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.187;
+    letter-spacing: 0.03em;
+
 }
 
 .team-image {
@@ -179,15 +192,16 @@ body {
     font-size: 26px;
     line-height: 1.192;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .link-adress {
  color: var(--primary-white-color);
  font-style: normal;
- font-weight: 400;
  font-size: 14px;
  line-height: 1.714;
- text-decoration: none; 
+ text-decoration: none;
+ letter-spacing: 0.03em;
 }
 
 .link-items .link-adress:hover,
@@ -198,10 +212,10 @@ body {
 .link-item {
   color: var(--footer-text-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   text-decoration: none;
+  letter-spacing: 0.03em;
     }
 
 .link-items .link-item:hover,
@@ -230,7 +244,6 @@ body {
  }
  
 .product {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
 }
